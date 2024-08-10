@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para correr la aplicación simplemente correr la base de datos, migraciones y correr con "rails s"
 
-Things you may want to cover:
+Puntos cubiertos en la prueba
 
-* Ruby version
+* Al hacer login se crea un jwt que nos permite loguearnos y crear productos
 
-* System dependencies
+* Hay una api completa para la autenticación y manejo de usuarios pero al final solo se usaron 2 metodos que son register y login
 
-* Configuration
+* JWT
 
-* Database creation
+* Bcrypt
 
-* Database initialization
+* CRUD de productos
 
-* How to run the test suite
+* Un usuario puede gestionar sus propios productos
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Relacion 1 a muchos entre User y Products 
